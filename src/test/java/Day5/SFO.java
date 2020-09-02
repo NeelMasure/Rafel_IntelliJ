@@ -10,4 +10,13 @@ public class SFO extends MinOfHealth{
     }
 
 
+    public static void cityCrop(int i ){
+        System.out.println("City corporation");
+
+    }
+
+    public  static void  cityCorp(String name){
+        System.out.println("City corporation");
+    }
+
 }
