@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="14177" started-at="2021-02-10T10:38:03 IST" finished-at="2021-02-10T10:38:17 IST">
+    <groups>
+    </groups>
+    <test name="C:/Users/Neel/IdeaProjects/Rafel/src/test/java/testNG/testNGAnnotations.java" duration-ms="14177" started-at="2021-02-10T10:38:03 IST" finished-at="2021-02-10T10:38:17 IST">
+      <class name="testNG.testNGAnnotations2">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testNG.testNGAnnotations2@59f99ea]" name="openBrowser" is-config="true" duration-ms="4420" started-at="2021-02-10T10:38:03 IST" finished-at="2021-02-10T10:38:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="openURL()[pri:1, instance:testNG.testNGAnnotations2@59f99ea]" name="openURL" duration-ms="5522" started-at="2021-02-10T10:38:07 IST" finished-at="2021-02-10T10:38:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="PASS" signature="Login()[pri:2, instance:testNG.testNGAnnotations2@59f99ea]" name="Login" duration-ms="0" started-at="2021-02-10T10:38:13 IST" finished-at="2021-02-10T10:38:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="searchProduct()[pri:3, instance:testNG.testNGAnnotations2@59f99ea]" name="searchProduct" duration-ms="1" started-at="2021-02-10T10:38:13 IST" finished-at="2021-02-10T10:38:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="plp()[pri:4, instance:testNG.testNGAnnotations2@59f99ea]" name="plp" duration-ms="0" started-at="2021-02-10T10:38:13 IST" finished-at="2021-02-10T10:38:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- plp -->
+        <test-method status="PASS" signature="pdp()[pri:5, instance:testNG.testNGAnnotations2@59f99ea]" name="pdp" duration-ms="0" started-at="2021-02-10T10:38:13 IST" finished-at="2021-02-10T10:38:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pdp -->
+        <test-method status="PASS" signature="addtoCart()[pri:6, instance:testNG.testNGAnnotations2@59f99ea]" name="addtoCart" duration-ms="0" started-at="2021-02-10T10:38:13 IST" finished-at="2021-02-10T10:38:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtoCart -->
+        <test-method status="PASS" signature="addAddress()[pri:7, instance:testNG.testNGAnnotations2@59f99ea]" name="addAddress" duration-ms="0" started-at="2021-02-10T10:38:13 IST" finished-at="2021-02-10T10:38:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testNG.testNGAnnotations2@59f99ea]" name="tearDown" is-config="true" duration-ms="1061" started-at="2021-02-10T10:38:13 IST" finished-at="2021-02-10T10:38:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testNG.testNGAnnotations2 -->
+      <class name="testNG.testNGAnnotations3">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testNG.testNGAnnotations3@27efef64]" name="openBrowser" is-config="true" duration-ms="4415" started-at="2021-02-10T10:38:03 IST" finished-at="2021-02-10T10:38:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="openURL()[pri:1, instance:testNG.testNGAnnotations3@27efef64]" name="openURL" duration-ms="8919" started-at="2021-02-10T10:38:07 IST" finished-at="2021-02-10T10:38:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="PASS" signature="Login()[pri:2, instance:testNG.testNGAnnotations3@27efef64]" name="Login" duration-ms="0" started-at="2021-02-10T10:38:16 IST" finished-at="2021-02-10T10:38:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="searchProduct()[pri:3, instance:testNG.testNGAnnotations3@27efef64]" name="searchProduct" duration-ms="0" started-at="2021-02-10T10:38:16 IST" finished-at="2021-02-10T10:38:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="plp()[pri:4, instance:testNG.testNGAnnotations3@27efef64]" name="plp" duration-ms="0" started-at="2021-02-10T10:38:16 IST" finished-at="2021-02-10T10:38:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- plp -->
+        <test-method status="PASS" signature="pdp()[pri:5, instance:testNG.testNGAnnotations3@27efef64]" name="pdp" duration-ms="0" started-at="2021-02-10T10:38:16 IST" finished-at="2021-02-10T10:38:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pdp -->
+        <test-method status="PASS" signature="addtoCart()[pri:6, instance:testNG.testNGAnnotations3@27efef64]" name="addtoCart" duration-ms="0" started-at="2021-02-10T10:38:16 IST" finished-at="2021-02-10T10:38:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtoCart -->
+        <test-method status="PASS" signature="paymentGateway()[pri:8, instance:testNG.testNGAnnotations3@27efef64]" name="paymentGateway" duration-ms="0" started-at="2021-02-10T10:38:16 IST" finished-at="2021-02-10T10:38:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentGateway -->
+        <test-method status="PASS" signature="addAddress()[pri:7, instance:testNG.testNGAnnotations3@27efef64]" name="addAddress" duration-ms="0" started-at="2021-02-10T10:38:16 IST" finished-at="2021-02-10T10:38:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAddress -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testNG.testNGAnnotations3@27efef64]" name="tearDown" is-config="true" duration-ms="758" started-at="2021-02-10T10:38:16 IST" finished-at="2021-02-10T10:38:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testNG.testNGAnnotations3 -->
+    </test> <!-- C:/Users/Neel/IdeaProjects/Rafel/src/test/java/testNG/testNGAnnotations.java -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
