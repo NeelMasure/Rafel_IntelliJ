@@ -4,21 +4,37 @@ package testNG;
 import org.testng.annotations.*;
 import org.testng.annotations.Test;
 
-public class testNGAnnotations {
+public class testNGAnnotations extends BaseTest{
 
-    @BeforeTest
-    public void openBrowser() {
-        System.out.println("Opening Browser");
-
-        @BeforeMethod
-        public void beforeMethod(){
-            System.out.println("Before Method");
+    @BeforeSuite
+    public void beforeSuite(){
+        System.out.println("======Before Suite Start Report=======");
     }
 
-        @AfterMethod
-        public void afterMethod() {
-            System.out.println("After Method");
-        }
+    @AfterSuite
+    public void aftersuits(){
+        System.out.println("======After Suite Send Report=======");
+    }
+
+    @BeforeGroups
+    public void beforegroups(){
+        System.out.println("======Before Demo Group=======");
+    }
+
+    @AfterGroups
+    public void aftergroups(){
+        System.out.println("======After Demo Group=======");
+    }
+
+    @BeforeMethod
+    public void beforeMethod(){
+        System.out.println("====Before Method====");
+    }
+    @AfterMethod
+    public void aftermethod(){
+        System.out.println("******After Method****");
+    }
+
 
     @Test(priority = 1)
     public void openURL() {

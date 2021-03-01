@@ -8,9 +8,10 @@ import org.testng.annotations.Test;
 public class testNGAnnotations2 extends BaseTest{
 
     @Test(priority = 1)
-    public void openURL() {
+    public void openURL() throws InterruptedException {
 
         driver.get("https://www.amazon.com");
+        Thread.sleep(4000);
         System.out.println("URL");
 
     }
