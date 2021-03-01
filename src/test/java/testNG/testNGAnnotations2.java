@@ -1,10 +1,14 @@
 package testNG;
 
 
+import org.testng.Reporter;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+
+@Listeners(MyReports.class)
 public class testNGAnnotations2 extends BaseTest{
 
     @Test(priority = 1)
@@ -13,6 +17,9 @@ public class testNGAnnotations2 extends BaseTest{
         driver.get("https://www.amazon.com");
         Thread.sleep(4000);
         System.out.println("URL");
+        Reporter.log("User is on "+driver.getCurrentUrl());
+        Reporter.log("Page Title"+driver.getTitle());
+        Reporter.log("Page Source"+driver.getPageSource());
 
     }
     @Test(priority = 2)
